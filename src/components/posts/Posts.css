@@ -1,0 +1,13 @@
+.post {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2vw;
+    padding: 2vw;
+}
+
+.post>div {
+    border: 0.1vw solid #fff;
+    backdrop-filter: blur(0.5vw);
+    padding: 2vw;
+    color: #000;
+}
