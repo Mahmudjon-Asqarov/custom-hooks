@@ -6,10 +6,10 @@ export const useForm = initialState => {
         value
         ,
         e => {
-            setValue({
+            setValue(() => ({
                 ...value,
                 [e.target.name]: e.target.value
-            })
+            }))
         }
     ]
 }
